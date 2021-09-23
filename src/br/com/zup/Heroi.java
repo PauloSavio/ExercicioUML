@@ -26,14 +26,14 @@ public class Heroi {
     }
 
     public String trocarNome(String nome){
-        return nome;
+        setNome(nome);
     }
 
     public double receberDano(double dano){
-        return dano;
+        setVida(vida - dano);
     }
 
-    public double exibirVida(double vida){
-
+    public void exibirVida() {
+        return vida;
     }
 }

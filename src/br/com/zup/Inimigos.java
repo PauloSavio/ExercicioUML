@@ -26,15 +26,14 @@ public class Inimigos{
     }
 
     public String trocarNome(String nome){
-        this.nome = nome;
-        return nome;
+        setNome(nome);
     }
 
     public double receberDano(double dano){
-        return dano;
+        setVida(vida - dano);
     }
 
-    public double exibirVida(double vida){
-
+    public double exibirVida(){
+        return vida;
     }
 }
