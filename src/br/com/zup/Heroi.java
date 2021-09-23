@@ -25,15 +25,15 @@ public class Heroi {
         this.vida = vida;
     }
 
-    public String trocarNome(String nome){
+    public void trocarNome(String nome){
         setNome(nome);
     }
 
-    public double receberDano(double dano){
+    public void receberDano(double dano){
         setVida(vida - dano);
     }
 
-    public void exibirVida() {
+    public double exibirVida() {
         return vida;
     }
 }

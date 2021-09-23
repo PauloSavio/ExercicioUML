@@ -25,11 +25,11 @@ public class Inimigos{
         this.vida = vida;
     }
 
-    public String trocarNome(String nome){
+    public void trocarNome(String nome){
         setNome(nome);
     }
 
-    public double receberDano(double dano){
+    public void receberDano(double dano){
         setVida(vida - dano);
     }
 
