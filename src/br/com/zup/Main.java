@@ -10,5 +10,10 @@ public class Main {
 
         guerreiro.trocarNome("Brand");
         System.out.println(guerreiro.getNome());
+        guerreiro.receberDano(voador.aplicarDano());
+        System.out.println(guerreiro.exibirVida());
+        System.out.println(voador.exibirVida());
+        voador.receberDano(guerreiro.aplicarDano());
+        System.out.println(voador.exibirVida());
     }
 }
